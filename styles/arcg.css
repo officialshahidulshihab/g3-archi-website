@@ -15,8 +15,22 @@
 
 
 /* shared styles */ 
+
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 21px 24px 20px 25px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+}
 .display-flex{
     display: flex;
+}
+
+.bg-light{
+  background-color:rgba(255, 144, 14, 0.1);
 }
 /* dark 02 */
 .text-gray{
@@ -36,14 +50,62 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
 .nav-item{
     list-style: none;
 }
 
+.brand-name{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+}
 .nav-link{
     text-decoration: none;
     margin-right: 30px;
     font-size: 18;
     font-weight: 500;
     
+}
+
+
+.navbar, .banner{
+    max-width:1440px;
+    margin:0px auto;
+}
+
+/* Banner related styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.brand-tittle{
+    font-weight: bold;
+    font-size: 4rem;
+    color:#131313;
+    margin-bottom: 32px;
+}
+
+.brand-description{
+    font-size: 1rem;
+    margin-bottom: 32px;
+
+}
+
+.banner-image{
+    width: 100%;
+}
+
+
+
+
+/* responsive media quarry */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
