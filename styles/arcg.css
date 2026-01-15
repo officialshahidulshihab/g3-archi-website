@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -7,4 +11,39 @@
   font-optical-sizing: auto;
   font-weight:400;
   font-style: normal;
+}
+
+
+/* shared styles */ 
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark 03 */
+.text-light-gray{
+    color:#727272;
+}
+/* header styles */         
+
+
+
+/* navbar styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18;
+    font-weight: 500;
+    
 }
